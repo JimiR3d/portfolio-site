@@ -1,67 +1,58 @@
-# Portfolio Site
+# 🌐 Portfolio Site
 
-![Status](https://img.shields.io/badge/Status-In%20Progress-yellow)
+Personal portfolio website showcasing my data analytics projects and RegTech expertise.
 
-Personal portfolio website for Jimi Aboderin — Data Analyst specialising in regulatory automation and financial data pipelines for African institutions.
+**Live:** [https://jimir3d.github.io/portfolio-site](https://jimir3d.github.io/portfolio-site)
 
-Live, fast, mobile-optimised. No framework. Just clean HTML, CSS, and minimal vanilla JavaScript.
+## Features
 
-## Who this is for
+- **Dark-themed** design with Navy/Teal colour palette
+- **Responsive** layout — works on mobile, tablet, and desktop
+- **Smooth animations** — scroll-triggered fade-ins, nav blur, code typing effect
+- **Zero dependencies** — pure HTML, CSS, and JavaScript
 
-Recruiters, hiring managers, and anyone who wants a quick overview of my work, experience, and what I'm building next.
+## Sections
 
-## Tech stack
+| Section | Content |
+|---------|---------|
+| **Hero** | Tagline, stats, and interactive code snippet |
+| **About** | Background, education, and career highlights |
+| **Projects** | Four technical project cards with GitHub links |
+| **Skills** | Languages, tools, and domain knowledge |
+| **Contact** | Email, LinkedIn, and GitHub links |
 
-- **HTML** — semantic structure
-- **CSS** — custom styling with Inter (Google Fonts), responsive layout
-- **JavaScript** — scroll behaviour and mobile navigation only
+## Projects Featured
 
-No React. No Tailwind. No build step. Loads fast on Nigerian mobile internet.
+1. **Quidax Market Analytics** — Real-time crypto dashboard with Market Pulse Index™
+2. **Basel III Capital Dashboard** — CBN capital adequacy monitoring
+3. **Regulatory Report Generator** — CLI for CBN compliance reports
+4. **Oil & Gas Data Pipeline** — Production analytics with DuckDB
 
-## How to run locally
+## Deployment
+
+This site is deployed via **GitHub Pages**:
+
+1. Go to repo Settings → Pages
+2. Set source to `main` branch, root folder
+3. Save — site goes live at `https://jimir3d.github.io/portfolio-site`
+
+## Local Preview
 
 ```bash
-# Clone the repo
-git clone https://github.com/JimiR3d/portfolio-site.git
-cd portfolio-site
+# Using Python
+python -m http.server 8000
 
-# Open in browser
-open index.html
-# or on Windows:
-start index.html
+# Using Node
+npx serve .
 ```
 
-## Live site
+## Tech Stack
 
-_Coming soon — will be deployed to Vercel or GitHub Pages._
+- HTML5 semantic markup
+- CSS3 with custom properties, grid, flexbox
+- Vanilla JavaScript (Intersection Observer API)
+- Google Fonts (Inter)
 
-## Design
+---
 
-- **Font:** Inter (Google Fonts)
-- **Hero:** Dark navy (#0A0F1E) with electric teal (#00D4AA) accents
-- **Body:** Clean white sections
-- **Layout:** Mobile-first responsive (CSS Grid + Flexbox)
-- **Philosophy:** Text-forward. No stock photos. No generic illustrations.
-
-## Project structure
-
-```
-portfolio-site/
-├── index.html
-├── style.css
-├── script.js
-├── assets/
-│   ├── cv_jimi_aboderin.pdf
-│   └── (icons)
-└── README.md
-```
-
-## Contact
-
-- Email: [folajinmi13@gmail.com](mailto:folajinmi13@gmail.com)
-- GitHub: [JimiR3d](https://github.com/JimiR3d)
-- LinkedIn: [Oluwafolajinmi Aboderin](https://www.linkedin.com/in/oluwafolajinmi-aboderin-695848249/)
-
-## License
-
-MIT
+**Built by Jimi Aboderin** · Lagos, Nigeria
